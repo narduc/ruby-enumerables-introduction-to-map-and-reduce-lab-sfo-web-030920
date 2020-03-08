@@ -13,7 +13,13 @@ def map_to_negativize(array)
 end
 
 def map_to_no_change(array)
-  
+  arr = []
+  i = 0
+  while i < array.length
+  arr << array[i]
+  i += 1
+  end
+  return arr
 end
 
 def map_to_double(array)
