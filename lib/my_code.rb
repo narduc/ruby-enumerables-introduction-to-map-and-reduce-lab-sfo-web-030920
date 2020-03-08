@@ -1,7 +1,15 @@
 # My Code here....
 
 def map_to_negativize(array)
-  
+  arr = []
+  i = 0
+  while i < array.length
+  num = array[i]
+  num_less = num * -1
+  arr << num_less
+  i += 1
+  end
+  return arr
 end
 
 def map_to_no_change(array)
