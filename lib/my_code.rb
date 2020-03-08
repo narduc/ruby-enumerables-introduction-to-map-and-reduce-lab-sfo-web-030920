@@ -60,9 +60,12 @@ end
 def reduce_to_all_true(source_array)
   i = 0
   while i < source_array.length
-  
-end
-
+  if source_array[i] != true
+    return false
+  end
+  i += 1
+  end
+  return true
 end
 
 def reduce_to_any_true(source_array)
