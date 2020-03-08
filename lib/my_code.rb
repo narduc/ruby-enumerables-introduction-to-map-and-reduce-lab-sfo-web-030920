@@ -32,8 +32,6 @@ def map_to_double(array)
   i += 1
   end
   return arr
-  
-  
 end
 
 def map_to_square(array)
