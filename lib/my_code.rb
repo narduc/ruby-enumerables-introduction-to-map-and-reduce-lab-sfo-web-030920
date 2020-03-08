@@ -35,7 +35,15 @@ def map_to_double(array)
 end
 
 def map_to_square(array)
-  
+    arr = []
+  i = 0
+  while i < array.length
+  num = array[i]
+  num_less = num * num
+  arr << num_less
+  i += 1
+  end
+  return arr
 end
 
 
